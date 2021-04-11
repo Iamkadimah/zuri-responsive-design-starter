@@ -345,3 +345,121 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media (min-width: 600px) {
+    .nav-head .icon {
+        display: none;
+    }
+}
+
+
+@media(max-width: 425px) {
+    .nav-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    
+        
+    }
+    
+
+    .nav-head .icon {
+        font-size: 23px;
+        color: #bcc3c7;
+        cursor: pointer;
+        
+    }
+
+    div.nav-bar {
+        padding: 0;
+        flex-direction: column;
+        transition: all 0.4s ease;
+    }
+
+    .logo {
+        text-align: center;
+        padding:10px; 
+    }
+
+    ul.nav-links {
+        flex-direction: column;
+        
+        
+    }
+
+    .links-container {
+        transition: 3ms all ease-in-out;
+        
+    }
+
+    .link-holder {
+        display: none;
+        transition-delay: 4s;
+        transition: all ease-in-out;
+        
+        
+        
+    }
+
+    .show-links {
+        display: block;
+    }
+
+    ul.nav-links a {
+        display: block;
+        padding: 10px;
+    }
+
+    div.hero-section {
+        padding: 3rem;
+    }
+
+    div.hero-background {
+        padding: 3rem;
+    }
+
+    div.background p {
+        padding-left: 0;
+    }
+
+    div.background {
+        padding: 15px 20px;
+        height: auto;
+    }
+
+    div.hero-background-pos {
+        
+        display: none;
+
+    }
+
+    div.snapshot-box-content {
+        flex-direction: column;
+    }
+
+    div.footer-input {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media(max-width: 375px) {
+    div.hero-background-pos {
+        display: none;
+    }
+}
